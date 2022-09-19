@@ -1,4 +1,8 @@
-.button {
+.buttonDiv {
+    max-width: 30%;
+    margin: auto;
+  }
+  .button {
     width: 300px;
     height: 250px;
     align-self: center;
@@ -7,15 +11,23 @@
     background-color: rgb(35, 135, 218);
     border-radius: 40px;
     padding: 20px;
-}
-button:active {
+  }
+  button:active {
     color: aliceblue;
     background-color: crimson;
-}
-button:hover {
+  }
+  button:hover {
     border: 5px solid black;
-}
-.button__div {
-    max-width: 30%;
+  }
+  .zagadkaDiv {
+    text-align: center;
+    max-width: 60%;
     margin: auto;
-}
+  }
+  .troll {
+    align-self: center;
+    color: rgb(255, 23, 23);
+    font-weight: 700;
+    background-image: url(https://st2.depositphotos.com/4201071/8272/i/600/depositphotos_82723082-stock-photo-business-man-hoding-card-with.jpg);
+  }
+  

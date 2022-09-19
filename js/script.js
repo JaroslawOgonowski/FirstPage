@@ -1,8 +1,9 @@
 console.log("siemanko!");
-let button = document.querySelector(".js-button");
-let button__div = document.querySelector(".js-button__div");
-let main__change = document.querySelector(".js-main--change");
-let main = document.querySelector(".js-main");
+let button = document.querySelector(".button");
+let buttonDiv = document.querySelector(".buttonDiv");
+let zagadkaDiv = document.querySelector(".zagadkaDiv");
+let troll = document.querySelector(".troll");
+let fullPage = document.querySelector(".fullPage");
 button.addEventListener("click", () => {
   switch (button.innerText) {
     case "Przejdź do następnego kroku":
@@ -34,7 +35,7 @@ button.addEventListener("click", () => {
       break;
     case "policzone?":
       button.innerText = "dzięki :)";
-      main.classList.add ("js-main--change");
+      fullPage.classList.add("troll");
       break;
 
     case "dzięki :)":
@@ -42,7 +43,7 @@ button.addEventListener("click", () => {
       break;
     case "Chcesz jeszcze raz?- kliknij":
       button.innerText = "wybierz liczbę";
-      main.classList.remove ("js-main--change");
+      fullPage.classList.remove("troll");
       break;
     case "wybierz liczbę":
       button.innerText = "pomnóż razy 2";

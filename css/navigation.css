@@ -1,21 +1,17 @@
 .navigation {
-    padding: 25px 20px;
-    text-align: center;
-    border-bottom: 2px solid rgb(26, 26, 131);
-    border-top:2px solid rgb(26, 26, 131);
-  }
-  .navigation__list {
-    list-style-type: none;
-    line-height: 2.5;
-  }
-  .navigation__link {
-    color: rgb(255, 249, 249);
-    background-color: rgb(23, 138, 184);
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 20px;
-  }
-  .navigation__link:hover {
-    color: rgb(236, 228, 228);
-    background-color: rgb(13, 56, 148);
-  }
+  padding: 25px 20px;
+  text-align: center;
+  border-bottom: 2px solid rgb(26, 26, 131);
+  border-top: 2px solid rgb(26, 26, 131);
+}
+.navLink {
+  color: rgb(255, 249, 249);
+  background-color: rgb(23, 138, 184);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.navLink:hover {
+  color: rgb(236, 228, 228);
+  background-color: rgb(13, 56, 148);
+}

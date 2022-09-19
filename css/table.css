@@ -1,21 +1,21 @@
 .table {
     text-align: center;
     border-collapse: collapse;
-}
-.table__row:nth-child(even) {
+  }
+  .tableRow:nth-child(even) {
     background-color: rgb(134, 126, 126);
-}
-.table__row:hover {
+  }
+  .tableRow:hover {
     background-color: crimson;
     color: aliceblue;
-}
-.table__header {
+  }
+  .tableHeader {
     color: azure;
     background-color: rgb(75, 122, 207);
     border: 2px outset black;
     padding: 10px;
-}
-.table__cell {
+  }
+  .tableCell {
     padding: 10px;
     border: 2px solid black;
-}
+  }
