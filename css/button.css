@@ -1,0 +1,21 @@
+.button {
+    width: 300px;
+    height: 250px;
+    align-self: center;
+    font-size: 40px;
+    color: cornsilk;
+    background-color: rgb(35, 135, 218);
+    border-radius: 40px;
+    padding: 20px;
+}
+button:active {
+    color: aliceblue;
+    background-color: crimson;
+}
+button:hover {
+    border: 5px solid black;
+}
+.button__div {
+    max-width: 30%;
+    margin: auto;
+}
