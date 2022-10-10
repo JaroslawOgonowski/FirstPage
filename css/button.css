@@ -3,7 +3,7 @@
     margin: auto;
   }
   .button {
-    width: 300px;
+    max-width: 250px;
     height: 250px;
     align-self: center;
     font-size: 40px;

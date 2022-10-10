@@ -1,9 +1,8 @@
-console.log("siemanko!");
-let button = document.querySelector(".button");
-let buttonDiv = document.querySelector(".buttonDiv");
-let zagadkaDiv = document.querySelector(".zagadkaDiv");
-let troll = document.querySelector(".troll");
-let fullPage = document.querySelector(".fullPage");
+{
+  const welcome = () => {
+    console.log("Hello!");
+  };
+const playGame = (button, body) => {
 button.addEventListener("click", () => {
   switch (button.innerText) {
     case "Przejdź do następnego kroku":
@@ -35,22 +34,26 @@ button.addEventListener("click", () => {
       break;
     case "policzone?":
       button.innerText = "dzięki :)";
-      fullPage.classList.add("troll");
+      body.classList.add("troll");
       break;
-
     case "dzięki :)":
       button.innerText = "Chcesz jeszcze raz?- kliknij";
       break;
     case "Chcesz jeszcze raz?- kliknij":
       button.innerText = "wybierz liczbę";
-      fullPage.classList.remove("troll");
+      body.classList.remove("troll");
       break;
     case "wybierz liczbę":
       button.innerText = "pomnóż razy 2";
       break;
-
-    default:
-      console.log("Już nic więcej nie ma :)");
-      break;
   }
 });
+}
+const init = () => {
+const button = document.querySelector(".js-button");
+const body = document.querySelector(".js-body");
+welcome();
+playGame(button, body);
+}
+init();
+}

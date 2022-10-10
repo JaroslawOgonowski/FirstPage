@@ -6,17 +6,3 @@ html {
   ::before {
     box-sizing: inherit;
   }
-  
-  .fullPage {
-    max-width: 1000px;
-    margin: auto;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    line-height: 1.5;
-  }
-  
-  .normalFont {
-    font-style: normal;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-  }
