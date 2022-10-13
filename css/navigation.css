@@ -1,29 +1,31 @@
-
 .navigation {
     background-color: black;
     padding: 20px;
-   
+
 }
-.navigation__navLink{
-text-decoration: none;
-text-align: center;
-display:flex;
-align-self: center;
-color: azure;
-background-color:rgb(26, 19, 19);
-padding: 5px;
-border: 2px solid rgba(14, 5, 22, 0.829);
-border-radius: 5px;
+
+.navigation__navLink {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    color: azure;
+    background-color: rgb(26, 19, 19);
+    padding: 5px;
+    border: 2px solid rgba(14, 5, 22, 0.829);
+    border-radius: 5px;
 }
+
 .navigation__navLink:hover {
-background-color: white;
-color: rgb(0, 0, 0);
+    background-color: white;
+    color: rgb(0, 0, 0);
 }
-.navigation__unorderedList{
-display:flex;
-align-items: center;
-justify-content: space-around;
-flex-wrap: wrap;
-list-style-type: none;
-line-height: 2;
+
+.navigation__unorderedList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    line-height: 2;
 }
