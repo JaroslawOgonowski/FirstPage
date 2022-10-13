@@ -3,11 +3,10 @@
         console.log("Hello stranger");
         init();
     }
-
-    const button = document.querySelector(".js-button")
-    const main = document.querySelector(".js-main")
-
     const init = () => {
+        const button = document.querySelector(".js-button")
+        const main = document.querySelector(".js-main")
+
         button.addEventListener("click", () => {
             switch (button.innerText) {
 
