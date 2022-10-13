@@ -1,0 +1,12 @@
+.main{
+    padding-top: 20px;
+    margin: auto;
+}
+.main__banner{
+    padding-top: 50px;
+    width: 100%;
+}
+.main--nox{
+    background-color: black;
+    color: darkgray;
+}

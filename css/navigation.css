@@ -1,21 +1,29 @@
+
 .navigation {
-  padding: 25px 20px;
-  text-align: center;
-  border-bottom: 2px solid rgb(26, 26, 131);
-  border-top: 2px solid rgb(26, 26, 131);
+    background-color: black;
+    padding: 20px;
+   
 }
-.navigation__navLink {
-  color: rgb(255, 249, 249);
-  background-color: rgb(23, 138, 184);
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 20px;
+.navigation__navLink{
+text-decoration: none;
+text-align: center;
+display:flex;
+align-self: center;
+color: azure;
+background-color:rgb(26, 19, 19);
+padding: 5px;
+border: 2px solid rgba(14, 5, 22, 0.829);
+border-radius: 5px;
 }
 .navigation__navLink:hover {
-  color: rgb(236, 228, 228);
-  background-color: rgb(13, 56, 148);
+background-color: white;
+color: rgb(0, 0, 0);
 }
-.navigation__unorderedList {
-  list-style-type: none;
-  line-height: 2.5;
+.navigation__unorderedList{
+display:flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+list-style-type: none;
+line-height: 2;
 }
