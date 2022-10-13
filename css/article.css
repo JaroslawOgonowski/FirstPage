@@ -20,10 +20,14 @@
 
 .article__paragraph {
     text-indent: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .article__paragraph--centered {
     text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .article__div {
