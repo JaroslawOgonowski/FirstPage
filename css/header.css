@@ -32,8 +32,10 @@
     max-width: 50px;
     max-height: 50px;
     border-radius: 50%;
+    transition: transform 2s;
 }
 
 .header__icon:hover {
     border: 5px solid rgb(226, 247, 39);
+    transform: scale(1.2);    
 }

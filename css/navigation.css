@@ -1,7 +1,8 @@
 .navigation {
     background-color: black;
-    padding: 20px;
-
+    padding: 0px;
+    position: sticky;
+    top: 0;
 }
 
 .navigation__navLink {
@@ -29,4 +30,5 @@
     flex-wrap: wrap;
     list-style-type: none;
     line-height: 2;
+    margin-top: 0;
 }
